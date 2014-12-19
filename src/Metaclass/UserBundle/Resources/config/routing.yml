@@ -1,0 +1,7 @@
+metaclass_user_login:
+    path:     /user/login
+    defaults: { _controller: MetaclassUserBundle:Default:login }
+
+metaclass_user_register:
+    path:     /user/register
+    defaults: { _controller: MetaclassUserBundle:Default:register }

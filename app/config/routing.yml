@@ -1,0 +1,12 @@
+metaclass_user:
+    resource: "@MetaclassUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+metaclass_band_info:
+    resource: "@MetaclassBandInfoBundle/Resources/config/routing.php"
+    prefix:   /
+
+BlogBundle:
+    resource: "@BlogBundle/Resources/config/routing.yml"
+    prefix:   /
+

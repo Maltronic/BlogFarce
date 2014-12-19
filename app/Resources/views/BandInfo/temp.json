@@ -1,0 +1,517 @@
+{"artists": {"href": "https://api.spotify.com/v1/search?query=test&offset=0&limit=20&type=artist",
+  "items": [
+    {
+      "external_urls": {"spotify": "https://open.spotify.com/artist/1YEGETLT2p8k97LIo3deHL"},
+      "genres": [],
+      "href": "https://api.spotify.com/v1/artists/1YEGETLT2p8k97LIo3deHL",
+      "id": "1YEGETLT2p8k97LIo3deHL",
+      "images": [
+        {
+          "height": 737,
+          "url": "https://i.scdn.co/image/9ab67f7ff5ef747a1a49856b2aa2a28f8e780ab5",
+          "width": 1000
+        },
+        {
+          "height": 472,
+          "url": "https://i.scdn.co/image/5d6119960dcc6c9da93cbb8b5d9cf0673e63e5d6",
+          "width": 640
+        },
+        {
+          "height": 147,
+          "url": "https://i.scdn.co/image/c806aaab722a43574543b962ed42b58b513accf7",
+          "width": 200
+        },
+        {
+          "height": 47,
+          "url": "https://i.scdn.co/image/d57775af1d99268a73c353db8d6f16df66fd2e37",
+          "width": 64
+        }
+      ],
+      "name": "Crash Test Dummies",
+      "popularity": 46,
+      "type": "artist",
+      "uri": "spotify:artist:1YEGETLT2p8k97LIo3deHL"
+    },
+    {
+      "external_urls": {"spotify": "https://open.spotify.com/artist/34bwE4IO17Jgd574ibPOU4"},
+      "genres": [],
+      "href": "https://api.spotify.com/v1/artists/34bwE4IO17Jgd574ibPOU4",
+      "id": "34bwE4IO17Jgd574ibPOU4",
+      "images": [
+        {
+          "height": 626,
+          "url": "https://i.scdn.co/image/fe91874358b54c214a212b4e8b5c126b5d07ae7b",
+          "width": 640
+        },
+        {
+          "height": 293,
+          "url": "https://i.scdn.co/image/bc8350dbf5ca8a29e5e3804fdae41d24679e8dd8",
+          "width": 300
+        },
+        {
+          "height": 63,
+          "url": "https://i.scdn.co/image/e071d23956e59b743379c68f772f6794889379af",
+          "width": 64
+        }
+      ],
+      "name": "Test",
+      "popularity": 1,
+      "type": "artist",
+      "uri": "spotify:artist:34bwE4IO17Jgd574ibPOU4"
+    },
+    {
+      "external_urls": {"spotify": "https://open.spotify.com/artist/3RrCEcCC1AzmaUCxZNBnrg"},
+      "genres": [],
+      "href": "https://api.spotify.com/v1/artists/3RrCEcCC1AzmaUCxZNBnrg",
+      "id": "3RrCEcCC1AzmaUCxZNBnrg",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/a25f4febf00fc19eeda58f910f9b834158c22832",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/cd081ca1e64128f4ade9489020727a5f456f76a8",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/a2630b0e34cdd47193c19e77a93ae315a692fced",
+          "width": 64
+        }
+      ],
+      "name": "T.E.S.T.",
+      "popularity": 0,
+      "type": "artist",
+      "uri": "spotify:artist:3RrCEcCC1AzmaUCxZNBnrg"
+    },
+    {
+      "external_urls": {"spotify": "https://open.spotify.com/artist/2mHQfi32bOrYcD42cazcmh"},
+      "genres": ["oi"],
+      "href": "https://api.spotify.com/v1/artists/2mHQfi32bOrYcD42cazcmh",
+      "id": "2mHQfi32bOrYcD42cazcmh",
+      "images": [
+        {
+          "height": 666,
+          "url": "https://i.scdn.co/image/3499f91d871e49e11cad6e8dc583a5a74cad9c0b",
+          "width": 1000
+        },
+        {
+          "height": 426,
+          "url": "https://i.scdn.co/image/1d85af7e907473e8464b69d91fb1c7f820ba3277",
+          "width": 640
+        },
+        {
+          "height": 133,
+          "url": "https://i.scdn.co/image/90695071f8cf3ed798a41ab6b882bf334ad24bf0",
+          "width": 200
+        },
+        {
+          "height": 43,
+          "url": "https://i.scdn.co/image/ca0b36fb6b68307faad17e046f28b11cbc22d367",
+          "width": 64
+        }
+      ],
+      "name": "Peter And The Test Tube Babies",
+      "popularity": 18,
+      "type": "artist",
+      "uri": "spotify:artist:2mHQfi32bOrYcD42cazcmh"
+    },
+    {
+      "external_urls": {"spotify": "https://open.spotify.com/artist/1no82nMd4e9PUUZh8d2s6V"},
+      "genres": [],
+      "href": "https://api.spotify.com/v1/artists/1no82nMd4e9PUUZh8d2s6V",
+      "id": "1no82nMd4e9PUUZh8d2s6V",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/41ef736f2c36095dc009bf18d2dba751b2ebb5ed",
+          "width": 639
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/4c567b46df8233eb72de92cb22d2f824568635a5",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/21235a3b45705341ac958967e73b57a1a44e03ce",
+          "width": 64
+        }
+      ],
+      "name": "U.S. Test",
+      "popularity": 0,
+      "type": "artist",
+      "uri": "spotify:artist:1no82nMd4e9PUUZh8d2s6V"
+    },
+    {
+      "external_urls": {"spotify": "https://open.spotify.com/artist/4L1GzFX6FhzqZTNyNIGXjQ"},
+      "genres": ["dance-punk"],
+      "href": "https://api.spotify.com/v1/artists/4L1GzFX6FhzqZTNyNIGXjQ",
+      "id": "4L1GzFX6FhzqZTNyNIGXjQ",
+      "images": [
+        {
+          "height": 1508,
+          "url": "https://i.scdn.co/image/7824ca31f806a35b07157ee9035884f998f449e6",
+          "width": 1000
+        },
+        {
+          "height": 965,
+          "url": "https://i.scdn.co/image/4cde4c42decd7a6877ec7f2e1f49301d6dc752da",
+          "width": 640
+        },
+        {
+          "height": 302,
+          "url": "https://i.scdn.co/image/8c1d17b066b1297afdee08737fe250f2bd53fe89",
+          "width": 200
+        },
+        {
+          "height": 96,
+          "url": "https://i.scdn.co/image/985137b85d9e536a488f3bf2bd931ed95da7ea4b",
+          "width": 64
+        }
+      ],
+      "name": "Test Icicles",
+      "popularity": 4,
+      "type": "artist",
+      "uri": "spotify:artist:4L1GzFX6FhzqZTNyNIGXjQ"
+    },
+    {
+      "external_urls": {"spotify": "https://open.spotify.com/artist/5SpHk4uSlgtXkwpIUTBpW2"},
+      "genres": [],
+      "href": "https://api.spotify.com/v1/artists/5SpHk4uSlgtXkwpIUTBpW2",
+      "id": "5SpHk4uSlgtXkwpIUTBpW2",
+      "images": [],
+      "name": "Test Dept.",
+      "popularity": 0,
+      "type": "artist",
+      "uri": "spotify:artist:5SpHk4uSlgtXkwpIUTBpW2"
+    },
+    {
+      "external_urls": {"spotify": "https://open.spotify.com/artist/31obJnEmHX81bUzzfLAiM6"},
+      "genres": ["industrial"],
+      "href": "https://api.spotify.com/v1/artists/31obJnEmHX81bUzzfLAiM6",
+      "id": "31obJnEmHX81bUzzfLAiM6",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ea79f44b7b6c4be56b0bb4f9c6b4fbdb35dbbc4f",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/1b54c049af972bd288b82074545a05b4a0b9d618",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/53f2f42d5734e9fa0266fb38d55653754e01c988",
+          "width": 64
+        }
+      ],
+      "name": "Test Dept",
+      "popularity": 1,
+      "type": "artist",
+      "uri": "spotify:artist:31obJnEmHX81bUzzfLAiM6"
+    },
+    {
+      "external_urls": {"spotify": "https://open.spotify.com/artist/1GigvU7gOb086yZj2rsC9j"},
+      "genres": [],
+      "href": "https://api.spotify.com/v1/artists/1GigvU7gOb086yZj2rsC9j",
+      "id": "1GigvU7gOb086yZj2rsC9j",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/9543640d48eb4b9549170f241de5fd4148a6cd82",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/5d5ae86fd946c3537fc95ca415252139b4b80873",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/6bbc9040afa266e7c0bd735801648d8d41820214",
+          "width": 64
+        }
+      ],
+      "name": "Splinter Test",
+      "popularity": 0,
+      "type": "artist",
+      "uri": "spotify:artist:1GigvU7gOb086yZj2rsC9j"
+    },
+    {
+      "external_urls": {"spotify": "https://open.spotify.com/artist/0QKL9FKiRoerO2TYA5rCYD"},
+      "genres": [],
+      "href": "https://api.spotify.com/v1/artists/0QKL9FKiRoerO2TYA5rCYD",
+      "id": "0QKL9FKiRoerO2TYA5rCYD",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/39be5ab4ec0f6b789d3f9afd72c6e463c5aa743c",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/f66bbd8c4f72da2eb3c803f2dce121c06763bb21",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/a30d162bc7b5dfd3fe49db30fdca5ce8848dfd98",
+          "width": 64
+        }
+      ],
+      "name": "Test Artist",
+      "popularity": 0,
+      "type": "artist",
+      "uri": "spotify:artist:0QKL9FKiRoerO2TYA5rCYD"
+    },
+    {
+      "external_urls": {"spotify": "https://open.spotify.com/artist/7El1fAoBEnEKgMK57WuMat"},
+      "genres": [],
+      "href": "https://api.spotify.com/v1/artists/7El1fAoBEnEKgMK57WuMat",
+      "id": "7El1fAoBEnEKgMK57WuMat",
+      "images": [],
+      "name": "Test Tones",
+      "popularity": 0,
+      "type": "artist",
+      "uri": "spotify:artist:7El1fAoBEnEKgMK57WuMat"
+    },
+    {
+      "external_urls": {"spotify": "https://open.spotify.com/artist/4pyLvLmct7vcfmTEFzUxNa"},
+      "genres": [],
+      "href": "https://api.spotify.com/v1/artists/4pyLvLmct7vcfmTEFzUxNa",
+      "id": "4pyLvLmct7vcfmTEFzUxNa",
+      "images": [
+        {
+          "height": 600,
+          "url": "https://i.scdn.co/image/db9ff48a26d0ef6efd3c6b98030151633cf6df2a",
+          "width": 600
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/3c386e9ed5cd43f8ca9460dc5d4bf5e76ddef332",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/c59b9cc51733ba597f5ebbfe2bfa358c8b2c50a5",
+          "width": 64
+        }
+      ],
+      "name": "The Test",
+      "popularity": 0,
+      "type": "artist",
+      "uri": "spotify:artist:4pyLvLmct7vcfmTEFzUxNa"
+    },
+    {
+      "external_urls": {"spotify": "https://open.spotify.com/artist/2UUZ2ENXcLlZXcsXWvJxq3"},
+      "genres": [],
+      "href": "https://api.spotify.com/v1/artists/2UUZ2ENXcLlZXcsXWvJxq3",
+      "id": "2UUZ2ENXcLlZXcsXWvJxq3",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/6f63339f958a68748bfaa0db49e6d82a24a94ba2",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/772357d582c4ad552b6f732cd2801578198603e9",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/024508bd30af6f38bfa3604940d203ea0a7d9ac9",
+          "width": 64
+        }
+      ],
+      "name": "Sound Test",
+      "popularity": 0,
+      "type": "artist",
+      "uri": "spotify:artist:2UUZ2ENXcLlZXcsXWvJxq3"
+    },
+    {
+      "external_urls": {"spotify": "https://open.spotify.com/artist/7EsdqFBIY0DTesY0H4mIC9"},
+      "genres": [],
+      "href": "https://api.spotify.com/v1/artists/7EsdqFBIY0DTesY0H4mIC9",
+      "id": "7EsdqFBIY0DTesY0H4mIC9",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/5951f009ca2ac02ba60b5a6a2d26253729afe596",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/313f4f9fb5dfbeba1776dffe6e6ce3dcbcfda34e",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/82f96c61f0b6f93f878f8e29ef1463f16771c1d4",
+          "width": 64
+        }
+      ],
+      "name": "Test Patterns",
+      "popularity": 0,
+      "type": "artist",
+      "uri": "spotify:artist:7EsdqFBIY0DTesY0H4mIC9"
+    },
+    {
+      "external_urls": {"spotify": "https://open.spotify.com/artist/2kCylmAgqVaoFePFNGkMLP"},
+      "genres": [],
+      "href": "https://api.spotify.com/v1/artists/2kCylmAgqVaoFePFNGkMLP",
+      "id": "2kCylmAgqVaoFePFNGkMLP",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/5b2c818fb49dde518ed6856c8c455586f1e95217",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/7d997ac8a2aab55150c0add2f727b77365ea8184",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/7bbd0241480b95153eade6afb15aa11b0994a609",
+          "width": 64
+        }
+      ],
+      "name": "Acid Test",
+      "popularity": 0,
+      "type": "artist",
+      "uri": "spotify:artist:2kCylmAgqVaoFePFNGkMLP"
+    },
+    {
+      "external_urls": {"spotify": "https://open.spotify.com/artist/1sR9Cd3eJbW5MojHA9q8sA"},
+      "genres": [],
+      "href": "https://api.spotify.com/v1/artists/1sR9Cd3eJbW5MojHA9q8sA",
+      "id": "1sR9Cd3eJbW5MojHA9q8sA",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/9c463aea73dbecfe9d30a3b1fc9dc40ac970ddc8",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/6636d5b75e64d06e6255b2c8289dd4bdae2e4808",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/9c13c8a7094f977140cb6ec85f9c41d23adf3f2f",
+          "width": 64
+        }
+      ],
+      "name": "Test Pilot",
+      "popularity": 0,
+      "type": "artist",
+      "uri": "spotify:artist:1sR9Cd3eJbW5MojHA9q8sA"
+    },
+    {
+      "external_urls": {"spotify": "https://open.spotify.com/artist/1BbR8JUWalmElNjJhOkT8H"},
+      "genres": [],
+      "href": "https://api.spotify.com/v1/artists/1BbR8JUWalmElNjJhOkT8H",
+      "id": "1BbR8JUWalmElNjJhOkT8H",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/a96a7f306899bdecf6b781c26347156fd6b08cae",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/aac89a333afc132370ae3ca1cc7c42b688ae5736",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/599179ad2215351807a704c0dcf86eb7ae58f76b",
+          "width": 64
+        }
+      ],
+      "name": "Gods Test",
+      "popularity": 0,
+      "type": "artist",
+      "uri": "spotify:artist:1BbR8JUWalmElNjJhOkT8H"
+    },
+    {
+      "external_urls": {"spotify": "https://open.spotify.com/artist/1Vzk6tgm1dTGBa5d5ZD56j"},
+      "genres": [],
+      "href": "https://api.spotify.com/v1/artists/1Vzk6tgm1dTGBa5d5ZD56j",
+      "id": "1Vzk6tgm1dTGBa5d5ZD56j",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/e1fd3c4b710e2a4fe53b278f110590a23c94fc47",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/0936c7239a712cba49deb85d29c1bac4a9a01b4f",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ffd2f69dc974fbd9f6904a8bcd351cac3766fff8",
+          "width": 64
+        }
+      ],
+      "name": "Rorschach Test",
+      "popularity": 0,
+      "type": "artist",
+      "uri": "spotify:artist:1Vzk6tgm1dTGBa5d5ZD56j"
+    },
+    {
+      "external_urls": {"spotify": "https://open.spotify.com/artist/3JF8VwJhNFFLqnZTAWmAUn"},
+      "genres": [],
+      "href": "https://api.spotify.com/v1/artists/3JF8VwJhNFFLqnZTAWmAUn",
+      "id": "3JF8VwJhNFFLqnZTAWmAUn",
+      "images": [],
+      "name": "Wiz Test",
+      "popularity": 0,
+      "type": "artist",
+      "uri": "spotify:artist:3JF8VwJhNFFLqnZTAWmAUn"
+    },
+    {
+      "external_urls": {"spotify": "https://open.spotify.com/artist/5HNEfFLnBMC1QiJeTG8qWk"},
+      "genres": [],
+      "href": "https://api.spotify.com/v1/artists/5HNEfFLnBMC1QiJeTG8qWk",
+      "id": "5HNEfFLnBMC1QiJeTG8qWk",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/08355a39e84a41beed74b0f9fd98347f728dfcf1",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/f87ce774b05fb3eb08f4ede306f48cb973722783",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/d53cdf69c803fd9526da4612a4ea2208991fa3b8",
+          "width": 64
+        }
+      ],
+      "name": "Kevin Test",
+      "popularity": 0,
+      "type": "artist",
+      "uri": "spotify:artist:5HNEfFLnBMC1QiJeTG8qWk"
+    }
+  ],
+  "limit": 20,
+  "next": "https://api.spotify.com/v1/search?query=test&offset=20&limit=20&type=artist",
+  "offset": 0,
+  "previous": null,
+  "total": 107
+}
+}

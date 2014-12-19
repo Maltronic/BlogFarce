@@ -1,0 +1,4 @@
+services:
+#    metaclass_user.example:
+#        class: Metaclass\UserBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
