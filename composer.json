@@ -8,7 +8,7 @@
     },
     "require": {
         "php": ">=5.3.3",
-        "symfony/symfony": "2.5.*",
+        "symfony/symfony": "2.6.*",
         "twig/extensions": "~1.0",
         "symfony/assetic-bundle": "~2.3",
         "symfony/swiftmailer-bundle": "~2.3",
@@ -19,7 +19,8 @@
         "guzzlehttp/guzzle": "~5.0",
         "doctrine/dbal": "*",
         "doctrine/orm": "*",
-        "doctrine/doctrine-bundle": "*"
+        "doctrine/doctrine-bundle": "*",
+        "behat/behat": "*"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
