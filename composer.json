@@ -20,7 +20,9 @@
         "doctrine/dbal": "*",
         "doctrine/orm": "*",
         "doctrine/doctrine-bundle": "*",
-        "behat/behat": "*"
+        "behat/behat": "*",
+        "behat/mink": "~1.5",
+        "behat/mink-selenium2-driver": "~1.1"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
