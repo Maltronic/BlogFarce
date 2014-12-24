@@ -1,0 +1,42 @@
+<script type="text/javascript">
+    $(document).ready(function() {
+        
+        var forms = [
+            '[ name="{{ form.vars.full_name }}"]'
+        ];
+        
+        $( forms.join(',') ).submit( function(e) {
+            e.preventDefault();
+            
+            postForm($(this), function(response) {
+                
+            });
+        });
+        function postForm( form, $callback ) {
+            var values = {};
+            $.each(form.serializeArray(), function(i, field) {
+                values[field.name] = field.value;
+            });
+            
+            .ajax({
+                type        : form.attr('method'),
+                url         : form.attr('action'),
+                data        : values,
+                success     : function(data) {
+                    callback(data);
+                }
+            });
+        }
+    });
+</script>
+<form action="{{ path('BlogBundle_blog_create_comment', { 'id' : blog.id } ) }}" method="post" {{ form_enctype(form) }}>
+    {{ form_start(form) }}
+    {{ form_errors(form) }}
+    
+    {{ form_row(form.comment) }}
+    {{ form_row(form.user) }}
+    {{ form_widget(form._token) }}
+    <p>
+        <input type="submit" value="Post Comment" />
+    </p>
+</form>

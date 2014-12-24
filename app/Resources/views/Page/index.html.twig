@@ -1,8 +1,18 @@
 {# src/BlogFarce/BlogBundle/Resources/views/Page/index.html.twig #}
-{% extends 'BlogBundle::layout.html.twig' %}
+{% extends 'BlogFarce/layout.html.twig' %}
 
 {% block body %}
-    Da Homepage
+    {% for blog in blogs %}
+        <article class="blog">
+            <div>
+                <p><a href="{{ path('BlogBundle_blog_show', { 'id':  blog.id }) }}">{{ blog.title }}</a></p>
+            </div>
+            <div>
+                <p>{{ blog.body }}</p>
+            </div>
+            <div><p>&nbsp;</p></div>
+        </div>
+    {% endfor %}
 {% endblock %}
 
 {% block sidebar %}

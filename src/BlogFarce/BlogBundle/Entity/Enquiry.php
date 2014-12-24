@@ -2,6 +2,11 @@
 
 namespace BlogFarce\BlogBundle\Entity;
 
+use Symfony\Component\Validator\Constraints\Email;
+use Symfony\Component\Validator\Constraints\NotBlank;
+use Symfony\Component\Validator\Constraints\MaxLength;
+use Symfony\Component\Validator\Mapping\ClassMetadata;
+
 class Enquiry {
     protected $name;
     
@@ -56,5 +61,15 @@ class Enquiry {
         $this->body = $body;
         return $this;
     }
-    
+ 
+    public function loadValidatorMetaData(ClassMetadata $meta)
+    {
+        $meta->addPropertyConstraint('name', new NotBlank());
+        
+        $meta->addPropertyConstraint('email', new Email());
+        
+        $meta->addPropertyConstraint('subject', new NotBlank());
+        $meta->addPropertyConstraint('name', new MaxLength(82));
+        
+    }
 }

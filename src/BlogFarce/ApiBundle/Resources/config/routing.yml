@@ -1,0 +1,3 @@
+blogs:
+    type:       rest
+    resource:   BlogFarce\ApiBundle\Controller\BlogController

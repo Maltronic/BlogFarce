@@ -1,0 +1,7 @@
+BlogFarce\BlogBundle\Entity\Blog:
+    exclusion_policy: ALL
+    properties:
+        id:
+            expose: true
+        body:
+            expose: true

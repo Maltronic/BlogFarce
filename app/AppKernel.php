@@ -19,6 +19,12 @@ class AppKernel extends Kernel
             new BlogFarce\BlogBundle\BlogBundle(),
             new Metaclass\BandInfoBundle\MetaclassBandInfoBundle(),
             new Metaclass\UserBundle\MetaclassUserBundle(),
+            new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
+            new FOS\UserBundle\FOSUserBundle(),
+            new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
+            new BlogFarce\ApiBundle\BlogFarceApiBundle(),
+            new JMS\SerializerBundle\JMSSerializerBundle(),
+            new FOS\RestBundle\FOSRestBundle()
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

@@ -1,0 +1,27 @@
+BlogFarce\BlogBundle\Entity\Comment:
+    type: entity
+    table: comment
+    repositoryClass: BlogFarce\BlogBundle\Entity\CommentRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        comment:
+            type: text
+        user:
+            type: string
+            length: 255
+        approved:
+            type: boolean
+        created:
+            type: date
+        updated:
+            type: date
+    manyToOne:
+        blog:
+            targetEntity: BlogFarce\BlogBundle\Entity\Blog
+    lifecycleCallbacks:
+        preFlush: [ udpateTimestamps ]

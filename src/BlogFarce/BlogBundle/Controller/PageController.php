@@ -6,21 +6,24 @@ namespace BlogFarce\BlogBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use BlogFarce\BlogBundle\Entity\Enquiry;
 use BlogFarce\BlogBundle\Form\EnquiryType;
+use Symfony\Component\HttpFoundation\Request;
 
 class PageController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('BlogBundle:Page:index.html.twig');
+        $blogs = $this->getDoctrine()->getRepository('BlogBundle:Blog')->getLatestBlogs();
+        return $this->render('Page/index.html.twig', array(
+            'blogs' => $blogs
+        ));
     }
     
-    public function contactAction()
+    public function contactAction(Request $request)
     {
-        $session = $this->getRequest()->getSession();
+        $session = $request->getSession();
         $enquiry = new Enquiry();
         $form = $this->createForm(new EnquiryType(), $enquiry);
         $submittedNotice = null;
-        $request = $this->getRequest();
         if ($request->getMethod() == 'POST') {
             $submittedNotice = 'it been submitted yo';
             $form->bind($request);

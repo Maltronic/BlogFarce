@@ -1,3 +1,7 @@
+blog_farce_api:
+    resource: "@BlogFarceApiBundle/Resources/config/routing.yml"
+    prefix:   /
+
 metaclass_user:
     resource: "@MetaclassUserBundle/Resources/config/routing.yml"
     prefix:   /
@@ -10,3 +14,8 @@ BlogBundle:
     resource: "@BlogBundle/Resources/config/routing.yml"
     prefix:   /
 
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
+fos_rest:
+    resource: "@BlogFarceApiBundle/Resources/config/routing.yml"

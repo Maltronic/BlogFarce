@@ -13,6 +13,7 @@
             <link href="{{ asset('css/screen.css') }}" type="text/css" rel="stylesheet" />
         {% endblock %}
         <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" />
+        <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
     </head>
     <body>
 
@@ -22,17 +23,40 @@
                     {% block navigation %}
                         <nav>
                             <ul class="navigation">
-                                <li><a href="#">Home</a></li>
+                                <li><a href="{{ path('BlogBundle_homepage') }}">Home</a></li>
                                 <li><a href="{{ path('BlogBundle_about') }}">About</a></li>
                                 <li><a href="{{ path('BlogBundle_contact') }}">Contact</a></li>
                             </ul>
                         </nav>
                     {% endblock %}
+        <div>
+            {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+                {{ 'layout.logged_in_as'|trans({'%username%': app.user.username}, 'FOSUserBundle') }} |
+                <a href="{{ path('fos_user_security_logout') }}">
+                    {{ 'layout.logout'|trans({}, 'FOSUserBundle') }}
+                </a>
+            {% else %}
+                <a href="{{ path('fos_user_security_login') }}">{{ 'layout.login'|trans({}, 'FOSUserBundle') }}</a>
+            {% endif %}
+        </div>
+
+        {% for type, messages in app.session.flashBag.all %}
+            {% for message in messages %}
+                <div class="{{ type }}">
+                    {{ message|trans({}, 'FOSUserBundle') }}
+                </div>
+            {% endfor %}
+        {% endfor %}
+
+        <div>
+            {% block fos_user_content %}
+            {% endblock fos_user_content %}
+        </div>
                 </div>
 
                 <hgroup>
-                    <h2>{% block blog_title %}<a href="#">symblog</a>{% endblock %}</h2>
-                    <h3>{% block blog_tagline %}<a href="#">creating a blog in Symfony2</a>{% endblock %}</h3>
+                    <h2>{% block blog_title %}<a href="{{ path('BlogBundle_homepage') }}">symblog</a>{% endblock %}</h2>
+                    <h3>{% block blog_tagline %}<a href="{{ path('BlogBundle_homepage') }}">creating a blog in Symfony2</a>{% endblock %}</h3>
                 </hgroup>
             </header>
 

@@ -1,0 +1,37 @@
+## YAML Template.
+---
+BlogFarce\BlogBundle\Entity\Blog:
+    type: entity
+    table: blog
+    repositoryClass: BlogFarce\BlogBundle\Entity\BlogRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        title:
+            type: string
+            length: 255
+        author:
+            type: string
+            length: 255
+        body:
+            type: text
+            nullable: TRUE
+        imageFile:
+            type: string
+            length: 255
+        tags:
+            type: text
+        created:
+            type: date
+        updated:
+            type: date
+    oneToMany:
+        Comments:
+            targetEntity: Comment
+            mappedBy: blog
+    lifecycleCallbacks:
+        preFlush: [ updateTimestamps ]

@@ -1,0 +1,55 @@
+{% extends 'BlogFarce/layout.html.twig' %}
+
+{%block title %}{{ blog.title }}{% endblock %}
+
+{%block body %}
+    <script type="text/javascript">
+    $(document).ready(function() {
+        function show_comments(container) {
+            console.log('h1');
+            $.get('{{ path('BlogBundle_blog_show_comments', {id: blog.id }) }}',
+                function(data, status) {
+                    console.log('h2');
+                    $.each(data, function(index, value) {
+                        console.log('h3');
+                        $(container).prepend(
+                                '<div class="comment" style="display: block;margin: 5px; margin-top: 10px; padding: 4px; border: 1px solid #DDDDDD; border-radius: 4px;box-shadow: 0 0 0 3px #EEEEEE" ><p>' + value.comment + '</p>' +
+                                '<p>By ' + value.user + '</p></div>'
+                        );
+                });
+            }, "json");
+        }
+        
+        function hide_comments(container) {
+            $('.comment').remove();
+        }
+        
+        $('#show_comments').on('click', function() {show_comments('#comment_box');$('#show_comments').hide();$('#hide_comments').show();});
+        $('#hide_comments').on('click', function() {hide_comments('#comment_box');$('#hide_comments').hide();$('#show_comments').show();});
+    });
+</script>
+    <article class="blog">
+        <header>
+            <div class="date"><time datetime="{{ blog.created|date('c') }}">{{ blog.created|date('l, F j, Y') }}</time></div>
+            <h2>{{ blog.title }}</h2>
+        </header>
+        <img src="{{ asset(['images/', blog.imageFile]|join) }}" alt="{{ blog.title }} image not found" class="large" />
+        <div>
+            <p>
+                {{ blog.body }}
+            </p>
+        </div>
+            <div>
+                <a href="#" id="show_comments">Show Comments ({{ num_comments }})</a>
+                <a href="#" id="hide_comments" style="display:none" >Hide Comments ({{ num_comments }})</a>
+                <div id="comment_box">
+                    <div>
+                        <h3Add a comment</h3>
+                        <div>
+                            {% include 'Comment/new.html.twig' with { 'blog': blog, 'form': form } %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </article>
+{% endblock %}
